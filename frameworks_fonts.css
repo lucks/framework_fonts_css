@@ -1,0 +1,157 @@
+/*
+Framework fonts 
+Author: Lucks
+2010
+lucks17@gmail.com
+------------------
+Example how to use :
+ Family - size - style - weight - color line height (if apply)
+ (family - size - style - weight - color)
+ .f-fam1 .fs-28 .fst-n .fw-n .fc-1
+
+*/
+
+/* Font families */
+/* Myriad Pro */
+@font-face {font-family: 'MyriadProRegular';
+    src: url('../css/font/myriad_pro_regular-webfont.eot');
+    src: url('../css/font/myriad_pro_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../css/font/myriad_pro_regular-webfont.woff') format('woff'),
+    url('../css/font/myriad_pro_regular-webfont.ttf') format('truetype'),
+    url('../css/font/myriad_pro_regular-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Myriad Pro Italic */
+@font-face {
+    font-family: 'myriad_proitalic';
+    src: url('../css/font/myriad-pro-italic.eot');
+    src: url('../css/font/myriad-pro-italic.eot?#iefix') format('embedded-opentype'),
+    url('../css/font/myriad-pro-italic.woff') format('woff'),
+    url('../css/font/myriad-pro-italic.ttf') format('truetype'),
+    url('../css/font/myriad-pro-italic.svg#myriad_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Myriad Pro */
+.f-fam1{font-family:"MyriadProRegular"; }
+
+/* Myriad Pro Italic */
+.f-fam2{font-family:'myriad_proitalic'; }
+
+/* Font sizes in px */
+.fs-52{font-size:52px;}
+.fs-42{font-size:42px;}
+.fs-30{font-size:30px;}
+.fs-28{font-size:28px;}
+.fs-27{font-size:27px;}
+.fs-26{font-size:26px;}
+.fs-24{font-size:24px;}
+.fs-23{font-size:23px;}
+.fs-22{font-size:22px;}
+.fs-21{font-size:21px;}
+.fs-20{font-size:20px;}
+.fs-18{font-size:18px;}
+.fs-16{font-size:16px;}
+.fs-15{font-size:15px;}
+.fs-14{font-size:14px;}
+.fs-13{font-size:13px;}
+.fs-12{font-size:12px;}
+.fs-11{font-size:11px;}
+.fs-10{font-size:10px;}
+.fs-9{font-size:9px;}
+/* Font sizes in pts */
+.fs-74-pt{font-size:74pt;}
+.fs-52-pt{font-size:52pt;}
+.fs-42-pt{font-size:42pt;}
+.fs-36-pt{font-size:36pt;}
+.fs-30-pt{font-size:30pt;}
+.fs-28-pt{font-size:28pt;}
+.fs-27-pt{font-size:27pt;}
+.fs-26-pt{font-size:26pt;}
+.fs-24-pt{font-size:24pt;}
+.fs-22-pt{font-size:22pt;}
+.fs-21-pt{font-size:21pt;}
+.fs-20-pt{font-size:20pt;}
+.fs-18-pt{font-size:18pt;}
+.fs-16-pt{font-size:16pt;}
+.fs-15-pt{font-size:15pt;}
+.fs-14-pt{font-size:14pt;}
+.fs-13-pt{font-size:13pt;}
+.fs-12-pt{font-size:12pt;}
+.fs-11-pt{font-size:11pt;}
+.fs-10-pt{font-size:10pt;}
+.fs-9-pt{font-size:9pt;}
+/* Font styles */
+.fst-n{font-style:normal;}
+.fst-i{font-style:italic;}
+/* Font weights */
+.fw-n{font-weight:normal;}
+.fw-b{font-weight:bold;}
+/* Font colors you can modify or add new colors*/
+/* white */
+.fc-0{color:#FFFFFF;}
+/* black */
+.fc-1{color:#000;}
+/* green */
+.fc-2{color:#508C57;}
+
+
+/* Line heights in px */
+.flh-51{line-height:51px;}
+.flh-30{line-height:30px;}
+.flh-28{line-height:28px;}
+.flh-27{line-height:27px;}
+.flh-26{line-height:26px;}
+.flh-25{line-height:25px;}
+.flh-24{line-height:24px;}
+.flh-23{line-height:23px;}
+.flh-22{line-height:22px;}
+.flh-21{line-height:21px;}
+.flh-20{line-height:20px;}
+.flh-19{line-height:19px;}
+.flh-18{line-height:18px;}
+.flh-17{line-height:17px;}
+.flh-16{line-height:16px;}
+.flh-15{line-height:15px;}
+.flh-14{line-height:14px;}
+.flh-13{line-height:13px;}
+.flh-12{line-height:12px;}
+.flh-11{line-height:11px;}
+.flh-10{line-height:10px;}
+.flh-9{line-height:9px;}
+
+/* Line heights in pts */
+.flh-70-pt{line-height:70pt;}
+.flh-51-pt{line-height:51pt;}
+.flh-30-pt{line-height:30pt;}
+.flh-28-pt{line-height:28pt;}
+.flh-27-pt{line-height:27pt;}
+.flh-26-pt{line-height:26pt;}
+.flh-25-pt{line-height:25pt;}
+.flh-24-pt{line-height:24pt;}
+.flh-23-pt{line-height:23pt;}
+.flh-22-pt{line-height:22pt;}
+.flh-21-pt{line-height:21pt;}
+.flh-20-pt{line-height:20pt;}
+.flh-19-pt{line-height:19pt;}
+.flh-18-pt{line-height:18pt;}
+.flh-17-pt{line-height:17pt;}
+.flh-16-pt{line-height:16pt;}
+.flh-15-pt{line-height:15pt;}
+.flh-14-pt{line-height:14pt;}
+.flh-13-pt{line-height:13pt;}
+.flh-12-pt{line-height:12pt;}
+.flh-11-pt{line-height:11pt;}
+.flh-10-pt{line-height:10pt;}
+.flh-9-pt{line-height:10pt;}
+/* separation */
+.fsp-1{
+    letter-spacing: 1px;
+}
+.fsp-10{
+    letter-spacing: 10px;
+}
